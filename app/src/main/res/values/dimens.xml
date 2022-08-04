@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    Margins-->
+    <item name="margin_small" type="dimen">8dp</item>
+    <item name="margin_medium" type="dimen">16dp</item>
+    <item name="margin_large" type="dimen">24dp</item>
+    <item name="margin_xlarge" type="dimen">32dp</item>
+    <item name="margin_xxlarge" type="dimen">40dp</item>
+    <item name="margin_xxxlarge" type="dimen">50dp</item>
+    <item name="margin_extremelarge" type="dimen">100dp</item>
+    <item name="list_large" type="dimen">400dp</item>
+
+<!--    Text Size-->
+    <item name="text_small" type="dimen">8sp</item>
+    <item name="text_medium" type="dimen">16sp</item>
+    <item name="text_large" type="dimen">24sp</item>
+    <item name="text_xlarge" type="dimen">32sp</item>
+    <item name="text_xxlarge" type="dimen">40sp</item>
+    <item name="text_xxxlarge" type="dimen">50sp</item>
+    <item name="text_extremelarge" type="dimen">100sp</item>
+</resources>

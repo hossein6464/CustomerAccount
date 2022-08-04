@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/margin_small"
+    android:layout_marginEnd="@dimen/margin_small"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/addAccountTitleTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_medium"
+        android:textSize="@dimen/text_xlarge"
+        android:textAlignment="center"
+        android:text="@string/add_account" />
+
+    <EditText
+        android:id="@+id/accountNumberEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/margin_small"
+        android:paddingEnd="@dimen/margin_small"
+        android:ems="5"
+        android:inputType="number"
+        android:hint="@string/account_number" />
+
+    <EditText
+        android:id="@+id/openDateEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/margin_small"
+        android:paddingEnd="@dimen/margin_small"
+        android:ems="5"
+        android:inputType="textPersonName"
+        android:hint="@string/open_date" />
+
+    <EditText
+        android:id="@+id/balanceEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/margin_small"
+        android:paddingEnd="@dimen/margin_small"
+        android:ems="5"
+        android:inputType="numberDecimal"
+        android:hint="@string/balance" />
+
+    <TextView
+        android:id="@+id/customerTitleTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_medium"
+        android:textSize="@dimen/text_xlarge"
+        android:textAlignment="center"
+        android:text="@string/customer" />
+
+    <EditText
+        android:id="@+id/firstnameEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/margin_small"
+        android:paddingEnd="@dimen/margin_small"
+        android:ems="5"
+        android:inputType="textPersonName"
+        android:hint="@string/firstname"/>
+
+    <EditText
+        android:id="@+id/lastnameEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/margin_small"
+        android:paddingEnd="@dimen/margin_small"
+        android:ems="5"
+        android:inputType="textPersonName"
+        android:hint="@string/lastname" />
+
+    <EditText
+        android:id="@+id/phoneEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/margin_small"
+        android:paddingEnd="@dimen/margin_small"
+        android:ems="5"
+        android:inputType="number"
+        android:hint="@string/phone"  />
+
+    <EditText
+        android:id="@+id/sinEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/margin_small"
+        android:paddingEnd="@dimen/margin_small"
+        android:ems="5"
+        android:inputType="number"
+        android:hint="SIN"  />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_small"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/addBtnId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_small"
+            android:text="@string/add" />
+
+        <Button
+            android:id="@+id/findBtnId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_small"
+            android:text="@string/find" />
+
+        <Button
+            android:id="@+id/removeBtnId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_small"
+            android:text="@string/remove" />
+
+        <Button
+            android:id="@+id/updateBtnId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_small"
+            android:text="@string/update"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_medium"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clearBtnId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:layout_weight="1"
+            android:text="@string/clear" />
+
+        <Button
+            android:id="@+id/showAllBtnId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="@string/show_all" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin_medium"
+    tools:context=".WithdrawActivity">
+
+    <TextView
+        android:id="@+id/balanceTextViewTitleId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_xlarge"
+        android:text="@string/balance" />
+
+    <TextView
+        android:id="@+id/balanceTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_margin="@dimen/margin_medium"
+        android:textSize="@dimen/text_xlarge"
+        android:text="@string/_0_0" />
+
+    <EditText
+        android:id="@+id/amountWithdrawEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:ems="10"
+        android:paddingStart="@dimen/margin_small"
+        android:paddingEnd="@dimen/margin_small"
+        android:inputType="number"
+        android:hint="@string/enter_the_amount" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/backBtnId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/text_xlarge"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:onClick="backToListView"
+            android:text="@string/back" />
+
+        <Button
+            android:id="@+id/withdrawBtnId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/text_xlarge"
+            android:layout_marginEnd="@dimen/margin_xlarge"
+            android:layout_height="wrap_content"
+            android:onClick="withdrawMoney"
+            android:layout_marginTop="@dimen/margin_large"
+            android:text="@string/withdraw" />
+    </LinearLayout>
+
+</LinearLayout>
